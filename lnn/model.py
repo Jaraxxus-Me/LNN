@@ -24,7 +24,7 @@ from tqdm import tqdm
 from torch import nn
 import matplotlib.pyplot as plt
 
-_utils.logger_setup(flush=True)
+# _utils.logger_setup(flush=True)
 
 
 class Model(nn.Module):
